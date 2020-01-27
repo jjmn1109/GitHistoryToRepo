@@ -20,15 +20,9 @@ namespace MonolithProject1
 			side3 = s3;
 		}
 
-		public int getSide1()
+		public int GetSide1()
 		{
 			return side1;
 		}
-
-		public void ThisisAMistake()
-		{
-			Console.WriteLine("AHHHHHH");
-		}
-
 	}
 }
