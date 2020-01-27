@@ -25,5 +25,10 @@ namespace MonolithProject1
 			return side1;
 		}
 
+		public void ThisisAMistake()
+		{
+			Console.WriteLine("AHHHHHH");
+		}
+
 	}
 }
