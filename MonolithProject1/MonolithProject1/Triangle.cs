@@ -9,7 +9,7 @@ namespace MonolithProject1
 {
 	public class Triangle
 	{
-		private int  side1;
+		private int side1;
 		private int side2;
 		private int side3;
 
@@ -18,6 +18,11 @@ namespace MonolithProject1
 			side1 = s1;
 			side2 = s2;
 			side3 = s3;
+		}
+
+		public int getSide1()
+		{
+			return side1;
 		}
 
 	}
